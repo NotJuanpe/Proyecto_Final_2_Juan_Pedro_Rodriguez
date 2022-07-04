@@ -3,22 +3,121 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Book-e - Productos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
     
     <!-- Section Header (Navbar) -->
-    <header></header>
-
+    <header>
+        <nav class="navbar fixed-top">
+            <div class="container-fluid justify-content-end">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Book-e</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../menu/cafeteria.html">Cafeteria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../menu/ofertas.html">Ofertas</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <!-- Section Principal -->
-    <section></section>
-
-    <!-- Section Secundaria -->
-    <section></section>
+    <section>
+        <nav id="navbar-example2" class="navbar bg-light px-3">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Libros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Comics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">Mangas</a>
+              </li>
+              
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="scrollspyHeading1">Libros</h4>
+            <div class="card" style="width: 18rem;">
+                <img src="../media/l1_aris.jpg" class="card-img-top" alt="Tapa de Aristoteles y Dante">
+                <div class="card-body">
+                  <h5 class="card-title">Aristoteles & Dante </h5>
+                  <p class="card-text">Aristóteles y Dante descubren los secretos del universo es una novela de literatura juvenil del escritor estadounidense Benjamin Alire Sáen.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../media/l2_mem.jpg" class="card-img-top" alt="Tapa de The Imperfection of Memory">
+                <div class="card-body">
+                  <h5 class="card-title">The Imperfection of Memory</h5>
+                  <p class="card-text">El volumen 22 de los libros publicados por la autora Angelina Aludo.</p>
+                </div>
+              </div>
+            <h4 id="scrollspyHeading2">Comics</h4>
+            <div class="card" style="width: 18rem;">
+                <img src="../media/c1_sp.png" class="card-img-top" alt="Tapa de spiderman">
+                <div class="card-body">
+                  <h5 class="card-title">The Amazing Spiderman</h5>
+                  <p class="card-text">Comic numero 2 del the amazing spiderman junto a los cuatro fantasticos.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../media/c2_av.jpg" class="card-img-top" alt="Tapa de avengers">
+                <div class="card-body">
+                  <h5 class="card-title">The Avengers</h5>
+                  <p class="card-text">Vivi la historia de los avengers en su forma clasica en su batalla contra loki.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            <h4 id="scrollspyHeading3">Mangas</h4>
+            <div class="card" style="width: 18rem;">
+                <img src="../media/m1_ju.jpg" class="card-img-top" alt=".Tapa de Jujutsu Kaisen">
+                <div class="card-body">
+                  <h5 class="card-title">Jujutsu Kaisen</h5>
+                  <p class="card-text">Tomo numero 11 de Jujutsu Kaisen.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="../media/m2_bnh.jpg" class="card-img-top" alt="Tapa de Boku no hero Academia">
+                <div class="card-body">
+                  <h5 class="card-title">Boku no Hero Academia</h5>
+                  <p class="card-text">Tomo numero 25 de Boku no Hero Academia.</p>
+                </div>
+              </div>
+          </div>
+    </section>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/juan-pedro-rodriguez-0125a8216/" target="_blank" ><img src="../media/s1_link.png" alt="Icono de linkedin"></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=+54 1131008005&text=Hola, me gustaria hacer una consulta!" target="_blank" ><img src="../media/s2_wp.png" alt="Icono de whatsapp"></a></li>
+            <li><a href="https://www.instagram.com/juannpe/?hl=es-la" target="_blank" ><img src="../media/s3_insta.png" alt="Icono de instagram"></a></li>
+            <li><a href="https://www.facebook.com/JUANPE10" target="_blank" ><img src="../media/s4_face.png" alt="Icono de facebook"></a></li>
+        </ul>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
