@@ -1,3 +1,44 @@
+/* Imports */
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  padding: 2%;
+}
+
+.marg-j {
+  margin: 5%;
+}
+
+.marg-j img {
+  padding-top: 3%;
+}
+
+.pie {
+  background-color: #DD4B39;
+  padding: 2%;
+}
+.pie ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.pie ul li :hover {
+  transform: scale(1.6);
+  transition: all 0.9s;
+}
+.pie ul li a img {
+  margin-left: 25%;
+  height: 100%;
+  width: 25%;
+}
+
+.animation5:hover {
+  transform: scale(1.3);
+  transition: all 1.3s;
+  background-color: antiquewhite;
+}
+
 .boton-juan {
   text-decoration: none;
   color: aliceblue;
