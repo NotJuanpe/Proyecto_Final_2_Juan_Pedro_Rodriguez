@@ -1,0 +1,45 @@
+.boton-juan {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 0%;
+  background-color: #DD4B39;
+}
+.redes h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 750%;
+  margin: 1% 0%;
+  font-family: "Times New Roman", Times, serif;
+  color: aliceblue;
+}
+.redes ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.redes ul li :hover {
+  transform: scale(1.12);
+  transition: all 1.2s;
+}
+.redes ul li a img {
+  margin-left: 25%;
+  height: 100%;
+  width: 45%;
+}
+
+footer {
+  background-color: antiquewhite;
+}
+footer nav div p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+/*# sourceMappingURL=style.css.map */
