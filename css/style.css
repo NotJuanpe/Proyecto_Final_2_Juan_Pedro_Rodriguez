@@ -1,11 +1,5 @@
 /* Imports */
-.titulo {
-  display: flex;
-  justify-content: center;
-  margin: 2%;
-  padding: 1%;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
 .marg-j {
   margin: 5%;
 }
@@ -122,6 +116,17 @@
   transition: all 1.2s;
 }
 
+.us_map {
+  display: flex;
+  justify-content: center;
+}
+
+.pie_car {
+  padding: 0.25% 1%;
+  color: gray;
+}
+
+/* font-family: 'Gulzar', serif; */
 .boton-juan {
   text-decoration: none;
   color: aliceblue;
@@ -164,6 +169,17 @@ footer {
 footer nav div p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: large;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+  padding: 1%;
+  font-family: "Gulzar", serif;
+}
+.titulo h4 {
+  font-size: 350%;
 }
 
 /*# sourceMappingURL=style.css.map */
