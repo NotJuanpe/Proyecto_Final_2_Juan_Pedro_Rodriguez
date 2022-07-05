@@ -111,7 +111,15 @@
 }
 
 .promo {
+  border-radius: 3%;
   margin: 2% 7%;
+  border: solid 1px gray;
+}
+
+.promo:hover {
+  background-color: lightcyan;
+  transform: scale(1.05);
+  transition: all 1.2s;
 }
 
 .boton-juan {
