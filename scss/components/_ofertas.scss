@@ -1,20 +1,3 @@
-
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    margin: 2%;
-    padding: 1%;
-}
-
-.marg-j{
-    margin: 5%;
-}
-
-.marg-j img{
-    padding-top: 3%;
-}
-
 .pie{
     background-color:#DD4B39 ;
     padding: 2%;
@@ -38,9 +21,15 @@
     }
 }
 
-.animation5:hover{
+.promo{
+    border-radius: 3%;
+    margin: 2% 7%;
+    border: solid 1px gray;
+}
 
-    transform: scale(1.3);
-    transition: all 1.3s;
-    background-color: antiquewhite;
+.promo:hover{
+        background-color:lightcyan;
+        transform: scale(1.05);
+        transition: all 1.2s;
+    
 }
