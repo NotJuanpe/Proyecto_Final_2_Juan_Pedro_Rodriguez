@@ -1,0 +1,59 @@
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    padding: 2%;
+}
+
+.marg-j{
+    margin: 5%;
+}
+
+.marg-j img{
+    padding-top: 3%;
+}
+
+.pie{
+    background-color:#DD4B39 ;
+    padding: 2%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            :hover{
+               transform: scale(1.6);
+               transition: all 0.9s; 
+            }
+            a{
+                img{
+                    margin-left: 25%;
+                    height: 100%;
+                    width: 25%;
+                }
+            }
+        }
+    }
+}
+
+.animation6:hover{
+
+    transform: scale(1.3);
+    transition: all 1.3s;
+    background-color: lightcyan;
+}
+
+.animation7:hover{
+
+    transform: scale(1.3);
+    transition: all 1.3s;
+    background-color: lightcoral;
+}
+
+.animation8:hover{
+
+    transform: scale(1.3);
+    transition: all 1.3s;
+    background-color: lightyellow;
+}
